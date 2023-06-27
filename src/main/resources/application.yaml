@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: "optional:configtree:/home/shubham/projects/TestSpring/src/main/resources/security/"
+
+server:
+  port: 8443
+  ssl:
+    key-store: "/home/shubham/projects/TestSpring/src/main/resources/security/certificate.p12"
+    key-store-password: "/home/shubham/projects/TestSpring/src/main/resources/security/certificate.p12.pwd"
